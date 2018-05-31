@@ -1,0 +1,1 @@
+Metacello new	smalltalkhubUser: 'Pharo' project: 'MetaRepoForPharo60';	configuration: 'WKHTML2PDF';	version: #stable;	load.
