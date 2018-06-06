@@ -1,2 +1,4 @@
-# EdUCIA
-Simulador de procesador ARM 
+# Simulador de la Computadora Industrial Abierta Argentina EdUCIAA
+## Simulador de procesador ARM 
+## Testeo de Inicio
+## GUI
