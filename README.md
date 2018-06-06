@@ -3,6 +3,6 @@
 ## Testeo de Inicio
 ## GUI
 
-![Simulador de la Computadora Industrial Abierta Argentina EDUCIAA ](EdUCIA/00_portada-cc.svg?"Simulador de la Computadora Industrial Abierta Argentina EDUCIAA")
+![Simulador de la Computadora Industrial Abierta Argentina EDUCIAA ](EdUCIA/00_portada-cc.svg)
 
 
