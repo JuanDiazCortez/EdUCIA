@@ -3,6 +3,6 @@
 ## Testeo de Inicio
 ## GUI
 
-!['Simulador de la Computadora Industrial Abierta Argentina EDUCIAA'](EdUCIA/IMG-20180213-WA0041.jpg?raw=true)
+!['Simulador de la Computadora Industrial Abierta Argentina EDUCIAA'](https://github.com/JuanDiazCortez/EdUCIA/blob/mmdiazcortez-patch-1/IMG-20180213-WA0041.jpg)
 
 
