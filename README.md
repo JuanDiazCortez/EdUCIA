@@ -19,3 +19,11 @@ El objetivo del Proyecto Simulador Virtual de la Computadora EDU-CIAA es Diseña
 !['Simulador de la Computadora Industrial Abierta Argentina EDUCIAA'](https://github.com/JuanDiazCortez/EdUCIA/blob/mmdiazcortez-patch-1/00_portada-cc.svg)
 
 !['Simulador de la Computadora Industrial Abierta Argentina EDUCIAA'](https://github.com/JuanDiazCortez/Simulador_ARM_EDUCIAA/blob/develop/01_EDUCIAA_Pertenencia_Presidencia_Ministerio_Educacion.svg)
+
+!['Simulador de la Computadora Industrial Abierta Argentina EDUCIAA'](https://github.com/JuanDiazCortez/Simulador_ARM_EDUCIAA/blob/develop/02_EDUCIAA_PROYECTO.svg)
+
+!['Simulador de la Computadora Industrial Abierta Argentina EDUCIAA'](https://github.com/JuanDiazCortez/Simulador_ARM_EDUCIAA/blob/develop/03_EDUCIAA_CIAA.svg)
+
+!['Simulador de la Computadora Industrial Abierta Argentina EDUCIAA'](https://github.com/JuanDiazCortez/Simulador_ARM_EDUCIAA/blob/develop/04_EDUCIAA_Microprocesadores_ARM.svg)
+
+!['Simulador de la Computadora Industrial Abierta Argentina EDUCIAA'](https://github.com/JuanDiazCortez/Simulador_ARM_EDUCIAA/blob/develop/05_EDUCIAA_Extension_Centro_CAO.svg)
