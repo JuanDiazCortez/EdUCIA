@@ -1,0 +1,1 @@
+name  := '/home/juan/Documentos/educia/set0.txt' . file  := StandardFileStream forceNewFileNamed: name .stream := ReadStream on: file .stream 

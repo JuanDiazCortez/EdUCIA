@@ -1,0 +1,61 @@
+
+Segmentation fault Thu Mar 15 19:27:36 2018
+
+
+/home/juan/Documentos/Pharo-Educia/pharo-vm/lib/pharo/5.0-201707201942/pharo
+Pharo VM version: 5.0-201707201942  Thu Jul 20 20:40:54 UTC 2017 gcc 4.6.3 [Production Spur 64-bit VM]
+Built from: CoInterpreter VMMaker.oscog-eem.2254 uuid: 4f2c2cce-f4a2-469a-93f1-97ed941df0ad Jul 20 2017
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.2252 uuid: 2f3e9b0e-ecd3-4adf-b092-cce2e2587a5c Jul 20 2017
+Revision: VM: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Thu Jul 20 12:42:21 2017 -0700 $ Plugins: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+Build host: Linux testing-gce-74d10329-bbfd-42e5-8995-b0e3a68c73cb 3.13.0-115-generic #162~precise1-Ubuntu SMP Fri Mar 24 16:47:06 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+plugin path: /home/juan/Documentos/Pharo-Educia/pharo-vm/lib/pharo/5.0-201707201942 [default: /home/juan/Documentos/Pharo-Educia/pharo-vm/lib/pharo/5.0-201707201942/]
+
+
+C stack backtrace & registers:
+	rax 0x1787d180 rbx 0x1787d010 rcx 0x1787d238 rdx 0x1787d0c8
+	rdi 0x1787cde8 rsi 0x1787cde8 rbp 0x1787cf58 rsp 0x1787d2f0
+	r8  0x1787c828 r9  0x1787c8e0 r10 0x1787c998 r11 0x1787ca50
+	r12 0x1787cb08 r13 0x1787cbc0 r14 0x1787cc78 r15 0x1787cd30
+	rip 0x1787d3a8
+*[0x7ffe1787d3a8]
+/home/juan/Documentos/Pharo-Educia/pharo-vm/lib/pharo/5.0-201707201942/pharo[0x41ccd1]
+/home/juan/Documentos/Pharo-Educia/pharo-vm/lib/pharo/5.0-201707201942/pharo[0x41d043]
+/lib64/libpthread.so.0(+0x13d50)[0x7f98054c7d50]
+/home/juan/Documentos/Pharo-Educia/pharo-vm/lib/pharo/5.0-201707201942/pharo[0x435d65]
+/home/juan/Documentos/Pharo-Educia/pharo-vm/lib/pharo/5.0-201707201942/pharo(interpret+0x53d)[0x45d22d]
+/home/juan/Documentos/Pharo-Educia/pharo-vm/lib/pharo/5.0-201707201942/pharo[0x4694b1]
+/home/juan/Documentos/Pharo-Educia/pharo-vm/lib/pharo/5.0-201707201942/pharo(interpret+0x268)[0x45cf58]
+/home/juan/Documentos/Pharo-Educia/pharo-vm/lib/pharo/5.0-201707201942/pharo(main+0x2ab)[0x419f7b]
+/lib64/libc.so.6(__libc_start_main+0xf1)[0x7f9804e1d541]
+/home/juan/Documentos/Pharo-Educia/pharo-vm/lib/pharo/5.0-201707201942/pharo[0x41a265]
+[0x0]
+
+
+Smalltalk stack dump:
+    0x7ffe178c6950 I RBParser>errorBlock: 0x25781e0: a(n) RBParser
+    0x7ffe178c6998 M RBParser class>parseExpression:onError: 0x3802a78: a(n) RBParser class
+    0x7ffe178c69e8 I RBParser class>parseFaultyExpression: 0x3802a78: a(n) RBParser class
+    0x7ffe178c6a28 M RubSHTextStylerST80(SHRBTextStyler)>parse:isMethod: 0x217d680: a(n) RubSHTextStylerST80
+    0x7ffe178c6a70 M RubSHTextStylerST80(SHRBTextStyler)>privateStyle: 0x217d680: a(n) RubSHTextStylerST80
+    0x7ffe178c6ac0 I RubSHTextStylerST80(SHTextStyler)>style: 0x217d680: a(n) RubSHTextStylerST80
+    0x7ffe178c6b00 M [] in RubShoutStylerDecorator>style: 0x216c5e8: a(n) RubShoutStylerDecorator
+    0x7ffe178c6b30 M BlockClosure>on:do: 0x2577df8: a(n) BlockClosure
+    0x7ffe178c6b70 M RubShoutStylerDecorator>style: 0x216c5e8: a(n) RubShoutStylerDecorator
+    0x7ffe178c6ba8 M [] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>popupPrint 0x217b668: a(n) GLMMorphicPharoScriptRenderer
+    0x7ffe178c6bf8 I [] in RubSmalltalkEditor>highlightEvaluateAndDo: 0x216abb8: a(n) RubSmalltalkEditor
+    0x7ffe178c6c58 I RubSmalltalkEditor>evaluate:andDo: 0x216abb8: a(n) RubSmalltalkEditor
+    0x7ffe178c6ca8 I RubSmalltalkEditor>highlightEvaluateAndDo: 0x216abb8: a(n) RubSmalltalkEditor
+    0x7ffe178c6ce0 M GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>popupPrint 0x217b668: a(n) GLMMorphicPharoScriptRenderer
+    0x7ffe178c6d20 I MorphicAlarm(MessageSend)>value 0x2526510: a(n) MorphicAlarm
+    0x7ffe178c6d58 M MorphicAlarm>value: 0x2526510: a(n) MorphicAlarm
+    0x7ffe178c6d98 M WorldState>triggerAlarmsBefore: 0x41a7128: a(n) WorldState
+    0x7ffe178c6df0 M WorldState>runLocalStepMethodsIn: 0x41a7128: a(n) WorldState
+    0x7ffe178c6e38 M WorldState>runStepMethodsIn: 0x41a7128: a(n) WorldState
+    0x7ffe178c6e70 M WorldMorph>runStepMethods 0x386c880: a(n) WorldMorph
+    0x7ffe178c6ea0 M WorldState>doOneCycleNowFor: 0x41a7128: a(n) WorldState
+    0x7ffe178c6ed8 M WorldState>doOneCycleFor: 0x41a7128: a(n) WorldState
+    0x7ffe178c6f10 M WorldMorph>doOneCycle 0x386c880: a(n) WorldMorph
+    0x7ffe178c6f40 M WorldMorph class>doOneCycle 0x384b670: a(n) WorldMorph class
+    0x7ffe178c6f70 M [] in MorphicUIManager>spawnNewProcess 0x69543d0: a(n) MorphicUIManager
+    0x7ffe178c6fb0 I [] in BlockClosure>newProcess 0x76092b0: a(n) BlockClosure
+         0x2577d20 is not a context

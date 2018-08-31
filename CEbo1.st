@@ -1,0 +1,1 @@
+'From Pharo6.0 of 13 May 2016 [Latest update: #60533] on 19 March 2018 at 5:49:01.575711 pm'!EduRoot subclass: #CEbo1	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'Educia'!!CEbo1 commentStamp: 'jmdc 3/19/2018 17:42' prior: 0!c!

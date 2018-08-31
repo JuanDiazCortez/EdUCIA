@@ -1,0 +1,1 @@
+b := BorderedMorph new.b layoutPolicy:  ProportionalLayout new.				b1 := PluggableButtonMorph new.o := b1 bounds origin.b2 := PluggableButtonMorph new.b2 bounds: b addMorph: b1.b addMorph:  b2.b openInWorld .SystemOrganization cleanMess.	 	
